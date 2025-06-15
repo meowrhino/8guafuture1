@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Ching – Consulta interactiva</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <main>
         <section id="intro">
@@ -41,5 +43,24 @@
     </main>
 
     <script src="js/iching.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js">
+        tirarMonedasBtn.addEventListener("click", () => {
+            anime({
+                targets: '.moneda',
+                rotateY: '+=1080deg',
+                duration: 1500,
+                easing: 'easeInOutQuart',
+                complete: () => {
+                    const valor = lanzarMonedas();
+                    hexagrama.push(valor);
+                    mostrarLinea(valor);
+                    if (hexagrama.length === 6) {
+                        setTimeout(mostrarHexagramaFinal, 800);
+                    }
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
