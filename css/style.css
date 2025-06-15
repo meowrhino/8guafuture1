@@ -5,16 +5,46 @@
   --interactive-color: #6a5acd;
 }
 
-body, html {
-  height: 100vh;
+button, input {
+  touch-action: manipulation;
+  font-family: inherit;
+}
+
+input[type="text"] {
+  font-size: 1.1rem;
+  padding: 12px;
+}
+
+@media (max-width: 600px) {
+  .moneda-cu {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  input[type="text"] {
+    width: 100%;
+  }
+}
+
+body {
   margin: 0;
   padding: 0;
   background: var(--bg-color);
   color: var(--text-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: 'Noto Serif JP', serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 body, html {
@@ -129,4 +159,16 @@ input[type="text"] {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+.lineas-interp {
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  list-style: disc;
+}
+
+.lineas-interp li {
+  margin-bottom: 0.5rem;
 }

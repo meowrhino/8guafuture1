@@ -95,6 +95,8 @@ function mostrarLinea(valor) {
 function mostrarHexagramaFinal() {
   const hexagramaFinal = document.getElementById("hexagrama-final");
   hexagramaFinal.innerHTML = "";
+
+  // Mostrar líneas gráficas
   hexagrama.forEach((valor) => {
     const divLinea = document.createElement("div");
     divLinea.classList.add("linea");
@@ -102,11 +104,22 @@ function mostrarHexagramaFinal() {
     hexagramaFinal.prepend(divLinea);
   });
 
+  // Interpretación desde JSON
   cargarInterpretacion(hexagrama, (num, info) => {
     const titulo = document.createElement("h3");
     titulo.textContent = `${num}. ${info.nombre}`;
     const texto = document.createElement("p");
     texto.textContent = info.dictamen;
+
+    const lineasDiv = document.createElement("ul");
+    lineasDiv.className = "lineas-interp";
+    info.lineas.forEach((linea, i) => {
+      const li = document.createElement("li");
+      li.textContent = `Línea ${i + 1}: ${linea}`;
+      lineasDiv.appendChild(li);
+    });
+
+    hexagramaFinal.prepend(lineasDiv);
     hexagramaFinal.prepend(texto);
     hexagramaFinal.prepend(titulo);
   });

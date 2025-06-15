@@ -1,0 +1,770 @@
+{
+  "1": {
+    "nombre": "乾 (Qián) – Lo Creativo",
+    "dictamen": "Lo Creativo obra elevado logro, propiciando por la perseverancia.",
+    "lineas": [
+      "Dragón oculto. No actúes.",
+      "Aparece un dragón en el campo. Es propicio ver al Gran Hombre.",
+      "El hombre superior obra creativamente todo el día; al atardecer los cuidados le asedian. Peligro. Sin culpa.",
+      "Vuelo vacilante sobre lo hondo. Sin culpa.",
+      "Dragón volador en el cielo. Es propicio ver al Gran Hombre.",
+      "Dragón arrogante traerá remordimiento."
+    ]
+  },
+  "2": {
+    "nombre": "坤 (Kūn) – Lo Receptivo",
+    "dictamen": "Lo Receptivo obra elevado éxito. Propicia la perseverancia de una yegua.",
+    "lineas": [
+      "Cuando hay hielo en el suelo, pronto vendrá la escarcha.",
+      "Rectitud y perseverancia traen ventura.",
+      "Guardarse de asumir el mando trae ventura.",
+      "El saco está cerrado sin una sola falla.",
+      "Una yegua amarilla trae sublime ventura.",
+      "Dragones combaten en el campo. Su sangre es negra y amarilla."
+    ]
+  },
+  "3": {
+    "nombre": "屯 (Zhūn) – La Dificultad Inicial",
+    "dictamen": "Dificultad al comienzo: supremo éxito. Es propicio persistir. No debe emprenderse nada. Es propicio designar ayudantes.",
+    "lineas": [
+      "Titubeos repetidos. Propicia perseverancia.",
+      "Trato con la dureza trae ventura.",
+      "Quien caza sin guía, sólo atrapa la cola.",
+      "El carro se deshace. Perseverar trae ventura.",
+      "Perseverancia firme trae éxito. No lamentarse.",
+      "El caballo y el carro son separados. Llorar no ayuda."
+    ]
+  },
+  "4": {
+    "nombre": "蒙 (Méng) – La Inmadurez Juvenil",
+    "dictamen": "Éxito en la ignorancia juvenil. No soy yo quien busca al joven ignorante, sino él quien me busca.",
+    "lineas": [
+      "Correr hacia la ignorancia. Es propicio disciplinar.",
+      "Soportar la ignorancia trae ventura.",
+      "No actuar con arrogancia hacia los ignorantes.",
+      "Encerrarse en la ignorancia trae desventura.",
+      "Ni castigo ni tolerancia. Moderación.",
+      "Disciplinar la ignorancia trae ventura."
+    ]
+  },
+  "5": {
+    "nombre": "需 (Xū) – La Espera",
+    "dictamen": "La espera con sinceridad trae éxito. Perseverar trae ventura.",
+    "lineas": [
+      "Esperar en el campo. Sin reproche.",
+      "Esperar en la arena. Habla calma.",
+      "Esperar en el pantano. Hay peligro.",
+      "Esperar en sangre. Salir del agujero.",
+      "Esperar con vino y comida. Serenidad.",
+      "Entrar bajo el lecho. Fantasma ataca."
+    ]
+  },
+  "6": {
+    "nombre": "訟 (Sòng) – El Conflicto",
+    "dictamen": "Tienes razón pero pierdes el juicio. Es mejor detenerse a mitad de camino.",
+    "lineas": [
+      "No iniciar disputa. Retirarse trae ventura.",
+      "No continuar disputa. Volver trae ventura.",
+      "Disputar con justicia. Fin dudoso.",
+      "Lucha con fuerza. Peligro.",
+      "Gran victoria. Buena fortuna.",
+      "Incluso con cinturón de jade, destino incierto."
+    ]
+  },
+  "7": {
+    "nombre": "師 (Shī) – El Ejército",
+    "dictamen": "Disciplina y liderazgo traen éxito. Perseverancia trae ventura.",
+    "lineas": [
+      "Ejército listo. Buena fortuna.",
+      "En el medio del ejército. Sin reproche.",
+      "Ejército en desorden. Desventura.",
+      "Ejército disciplinado. Buena fortuna.",
+      "Ejército bajo mando sabio. Buena fortuna.",
+      "Príncipe designa generales. Grandes cosas se logran."
+    ]
+  },
+  "8": {
+    "nombre": "比 (Bǐ) – La Solidaridad",
+    "dictamen": "Éxito. Es propicio cruzar grandes aguas. Perseverancia trae ventura.",
+    "lineas": [
+      "Afiliación leal. Sin culpa.",
+      "Afiliación fiel trae ventura.",
+      "Afiliarse con quien no conviene es peligroso.",
+      "Afiliación pasajera. Desdicha.",
+      "Afiliación verdadera. Éxito.",
+      "Afiliarse sin convicción. Sin ventura."
+    ]
+  },
+  "9": {
+    "nombre": "小畜 (Xiǎo Chù) – La Fuerza Domesticadora de lo Pequeño",
+    "dictamen": "Éxito. La perseverancia trae ventura. Las nubes se amontonan, pero aún no llueve.",
+    "lineas": [
+      "Regreso sin culpa.",
+      "Tranquilo y paciente. Perseverancia trae ventura.",
+      "Mantener a raya es difícil. Perseverar trae desventura.",
+      "Ninguna culpa si se mantiene firme.",
+      "La sinceridad traerá alegría.",
+      "La lluvia llega. El descanso es bendición."
+    ]
+  },
+  "10": {
+    "nombre": "履 (Lǚ) – El Porte",
+    "dictamen": "Avanzar como sobre hielo fino. Éxito con cautela y cortesía.",
+    "lineas": [
+      "Avanzar con humildad. Sin error.",
+      "Mantener equilibrio. Fortuna.",
+      "Un cojo camina. Avanzar trae peligro.",
+      "Caminar en armonía. Buena fortuna.",
+      "Decisión y respeto. Éxito.",
+      "Mirar hacia abajo. Precaución necesaria."
+    ]
+  },
+  "11": {
+    "nombre": "泰 (Tài) – La Paz",
+    "dictamen": "El cielo y la tierra están en unión. Gran éxito. El pequeño se va, el grande viene.",
+    "lineas": [
+      "Retirada de lo inferior. Ningún daño.",
+      "La perseverancia del débil trae ventura.",
+      "No nivelar las alturas y las bajas. Equilibrio.",
+      "Perdido el camino. Replantear.",
+      "El muro se derrumba. Renovación.",
+      "Ruina. Se dispersa la paz."
+    ]
+  },
+  "12": {
+    "nombre": "否 (Pǐ) – El Estancamiento",
+    "dictamen": "El cielo y la tierra no se comunican. Lo inferior prevalece. El noble se mantiene firme.",
+    "lineas": [
+      "La hierba crece entre las piedras.",
+      "Caminos cerrados. Buscar adentro.",
+      "Lucha contra la ignorancia. Claridad.",
+      "Mantener la virtud. Sin reproche.",
+      "Cambio en marcha. La luz regresa.",
+      "El muro se rompe. Fin del estancamiento."
+    ]
+  },
+  "13": {
+    "nombre": "同人 (Tóng Rén) – La Comunidad con los Hombres",
+    "dictamen": "Éxito en comunidad. Cruzar el gran río. Perseverancia trae ventura.",
+    "lineas": [
+      "Unidad sincera desde el origen.",
+      "Comunidad en la cocina. Sin culpa.",
+      "Escondida enemistad. Evitarla.",
+      "Marchar con comunidad. Éxito.",
+      "Unidad emocional. Buena fortuna.",
+      "Unidad universal. Gran logro."
+    ]
+  },
+  "14": {
+    "nombre": "大有 (Dà Yǒu) – La Gran Posesión",
+    "dictamen": "Gran éxito. El noble alcanza la riqueza con virtud.",
+    "lineas": [
+      "Sin egoísmo. Gran fortuna.",
+      "No acumular para sí. Benevolencia.",
+      "Bendiciones compartidas. Éxito.",
+      "Tesoro verdadero. Confianza.",
+      "Grandeza con humildad. Fortuna.",
+      "Riqueza divina. Triunfo."
+    ]
+  },
+  "15": {
+    "nombre": "謙 (Qiān) – La Modestia",
+    "dictamen": "Modestia genuina. Todo va bien. El noble alcanza.",
+    "lineas": [
+      "Modestia en acción. Buena fortuna.",
+      "Modestia que florece. Reconocimiento.",
+      "Actuar con humildad. Sin culpa.",
+      "Nada que temer. Ventaja constante.",
+      "Modestia que guía a otros.",
+      "La modestia alcanza la cima."
+    ]
+  },
+  "16": {
+    "nombre": "豫 (Yù) – El Entusiasmo",
+    "dictamen": "Entusiasmo sincero. El noble organiza ejércitos para actuar.",
+    "lineas": [
+      "Entusiasmo precoz. Precaución.",
+      "Moderado entusiasmo. Sin culpa.",
+      "Exceso de impulso. Retroceder.",
+      "Control del entusiasmo. Éxito.",
+      "Entusiasmo contagioso. Liderazgo.",
+      "Entusiasmo ciego. Caída."
+    ]
+  },
+  "17": {
+    "nombre": "隨 (Suí) – El Seguimiento",
+    "dictamen": "Éxito. Es propicio perseverar. Sin culpa.",
+    "lineas": [
+      "Seguir con sinceridad. Fortuna.",
+      "Seguir a quien merece. Sin error.",
+      "Seguir con alegría. Buena fortuna.",
+      "Seguir con reserva. Reflexión.",
+      "Seguir al guía correcto. Éxito.",
+      "Seguir ciegamente. Desdicha."
+    ]
+  },
+  "18": {
+    "nombre": "蠱 (Gǔ) – La Corrección de lo Corrompido",
+    "dictamen": "Éxito en emprender la corrección. Es propicio cruzar el gran río.",
+    "lineas": [
+      "Corregir las faltas del padre.",
+      "Tolerar errores del padre. Precaución.",
+      "Corregir con resolución. Fortuna.",
+      "Asumir el rol paterno. Éxito.",
+      "Corregir causas profundas. Éxito.",
+      "No corregir. Desdicha."
+    ]
+  },
+  "19": {
+    "nombre": "臨 (Lín) – La Aproximación",
+    "dictamen": "La aproximación del noble. Gran éxito. Es propicio perseverar.",
+    "lineas": [
+      "Aproximación simple. Fortuna.",
+      "Aproximación amigable. Sin culpa.",
+      "Aproximación sincera. Éxito.",
+      "Aproximación paciente. Fortaleza.",
+      "Aproximación sabia. Éxito duradero.",
+      "Aproximación arrogante. Caída."
+    ]
+  },
+  "20": {
+    "nombre": "觀 (Guān) – La Contemplación",
+    "dictamen": "Contemplación del modelo del noble. Limpia su vida para influir a otros.",
+    "lineas": [
+      "Contemplar desde la distancia.",
+      "Contemplar sin ver. Confusión.",
+      "Contemplación activa. Claridad.",
+      "Contemplar al sabio. Iluminación.",
+      "Contemplación profunda. Éxito.",
+      "Contemplación universal. Sabiduría."
+    ]
+  },
+  "21": {
+    "nombre": "噬嗑 (Shì Kè) – Morder y Separar",
+    "dictamen": "Éxito a través de la justicia firme. Castigar trae orden.",
+    "lineas": [
+      "Morder piel blanda. Progreso.",
+      "Morder carne dura. Dificultad.",
+      "Morder hueso. Perseverancia.",
+      "Morder hierro. Fuerza necesaria.",
+      "Morder con prudencia. Éxito.",
+      "Morder excesivamente. Desdicha."
+    ]
+  },
+  "22": {
+    "nombre": "賁 (Bì) – La Gracia",
+    "dictamen": "Éxito en lo pequeño. El noble cultiva formas sin perder el contenido.",
+    "lineas": [
+      "Gracia modesta. Sin culpa.",
+      "Gracia sincera. Buena fortuna.",
+      "Gracia superficial. Desdicha.",
+      "Gracia serena. Armonía.",
+      "Gracia en contenido. Elevación.",
+      "Gracia vacía. Sin valor."
+    ]
+  },
+  "23": {
+    "nombre": "剝 (Bō) – El Desmoronamiento",
+    "dictamen": "Desintegración. No es propicio actuar. El noble vive con dignidad.",
+    "lineas": [
+      "Desprendimiento de piel. Precaución.",
+      "Desprendimiento lento. Resistencia.",
+      "Desprendimiento profundo. Peligro.",
+      "Desprendimiento inevitable. Adaptación.",
+      "Desprendimiento de estructura. Caída.",
+      "Desprendimiento total. Renacimiento."
+    ]
+  },
+  "24": {
+    "nombre": "復 (Fù) – El Retorno",
+    "dictamen": "Retorno al camino. Gran éxito. Es propicio perseverar.",
+    "lineas": [
+      "Retorno temprano. Fortuna.",
+      "Retorno tranquilo. Sin culpa.",
+      "Retorno sincero. Armonía.",
+      "Retorno con decisión. Claridad.",
+      "Retorno reflexivo. Sabiduría.",
+      "Retorno tardío. Desdicha."
+    ]
+  },
+  "25": {
+    "nombre": "無妄 (Wú Wàng) – La Inocencia (Lo Inesperado)",
+    "dictamen": "Éxito. La perseverancia en la inocencia trae ventura.",
+    "lineas": [
+      "Acción inocente trae fortuna.",
+      "No culpable si uno tropieza en la inocencia.",
+      "Inocencia manchada. Cuidado.",
+      "Volver a la inocencia. Buena fortuna.",
+      "Inocencia en lo correcto. Éxito.",
+      "Inocencia forzada. Desventura."
+    ]
+  },
+  "26": {
+    "nombre": "大畜 (Dà Chù) – La Fuerza Domesticadora de lo Grande",
+    "dictamen": "Éxito. No comer en casa. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Autocontrol en el inicio. Sin culpa.",
+      "El carruaje es detenido. Sin reproche.",
+      "Buena crianza trae fortuna.",
+      "El yugo se rompe. Avance posible.",
+      "Diente de oro. Gran poder.",
+      "Camino del cielo. Buena fortuna."
+    ]
+  },
+  "27": {
+    "nombre": "頤 (Yí) – La Nutrición",
+    "dictamen": "Preocuparse por lo que se nutre y por cómo se nutre. Perseverancia trae ventura.",
+    "lineas": [
+      "Nutrición vacilante. Peligro.",
+      "Mirar al espíritu. Fortuna.",
+      "Dejar de nutrir. Buscar alimento.",
+      "Nutrir con sabiduría. Buen augurio.",
+      "Aceptar nutrición del sabio.",
+      "Nutrición desmedida. Desdicha."
+    ]
+  },
+  "28": {
+    "nombre": "大過 (Dà Guò) – La Preponderancia de lo Grande",
+    "dictamen": "El eje está sobrecargado. Éxito en cruzar grandes aguas. El tiempo es difícil.",
+    "lineas": [
+      "Debajo del lecho hay humedad.",
+      "Una viga debilitada. Precaución.",
+      "Carga excesiva. Colapso.",
+      "Apoyo central. Éxito.",
+      "Cruzar grandes aguas. Buena fortuna.",
+      "Árbol quebrado. Desventura."
+    ]
+  },
+  "29": {
+    "nombre": "坎 (Kǎn) – Lo Abismal (El Agua)",
+    "dictamen": "Repetir lo abismal. Perseverar trae éxito.",
+    "lineas": [
+      "Caer en el abismo. No buscar lucha.",
+      "Abismo con apoyo. Confianza.",
+      "Abismo tras abismo. Resistencia.",
+      "En medio del abismo. Trascendencia.",
+      "Agua que fluye. Renovación.",
+      "Atrapado en el abismo. Luchar con fe."
+    ]
+  },
+  "30": {
+    "nombre": "離 (Lí) – Lo Adherente (El Fuego)",
+    "dictamen": "Éxito. El resplandor del fuego. El noble cultiva la claridad.",
+    "lineas": [
+      "Sin reproche. Claridad inicial.",
+      "Brillo en el humo. No decidir aún.",
+      "Atado con cuerdas. Ocasión de actuar.",
+      "Gran claridad. Buen augurio.",
+      "Lágrimas y lamentos. Superación.",
+      "Rey iluminado. Gran virtud."
+    ]
+  },
+  "31": {
+    "nombre": "咸 (Xián) – La Influencia (La Corteja)",
+    "dictamen": "Éxito. Es propicio casarse. Perseverancia trae ventura.",
+    "lineas": [
+      "Influencia superficial. Precaución.",
+      "Influencia interior. Fortuna.",
+      "Influencia sincera. Buen camino.",
+      "Influencia en el muslo. Movimiento.",
+      "Influencia profunda. Compromiso.",
+      "Influencia poderosa. Éxito duradero."
+    ]
+  },
+  "32": {
+    "nombre": "恆 (Héng) – La Duración",
+    "dictamen": "Éxito en la duración. El noble permanece en el camino.",
+    "lineas": [
+      "Duración cambiante. Riesgo.",
+      "Duración constante. Fortuna.",
+      "Duración inestable. Confusión.",
+      "Duración reflexiva. Ganancia.",
+      "Duración sincera. Triunfo.",
+      "Duración sin rumbo. Desdicha."
+    ]
+  },
+  "33": {
+    "nombre": "遯 (Dùn) – La Retirada",
+    "dictamen": "Éxito. Es propicio la perseverancia del noble. Retirarse en el momento justo trae ventura.",
+    "lineas": [
+      "Retirada modesta. Sin culpa.",
+      "Retirada rápida. Sin reproche.",
+      "Retirada con dignidad. Ventaja.",
+      "Retirada reflexiva. Éxito.",
+      "Retirada firme. Buena fortuna.",
+      "Retirada forzada. Desdicha."
+    ]
+  },
+  "34": {
+    "nombre": "大壯 (Dà Zhuàng) – El Gran Poder",
+    "dictamen": "Gran poder. Es propicio actuar con justicia.",
+    "lineas": [
+      "Poder controlado. Fortaleza.",
+      "Poder creciente. Precaución.",
+      "Poder sin control. Peligro.",
+      "Poder que guía. Fortuna.",
+      "Poder con sabiduría. Triunfo.",
+      "Poder arrogante. Caída."
+    ]
+  },
+  "35": {
+    "nombre": "晉 (Jìn) – El Progreso",
+    "dictamen": "El progreso del noble. Le ofrece audiencia al rey. Éxito.",
+    "lineas": [
+      "Progreso sencillo. Fortuna.",
+      "Progreso con apoyo. Sin culpa.",
+      "Progreso lento. Sin reproche.",
+      "Progreso claro. Alegría.",
+      "Progreso en justicia. Éxito.",
+      "Progreso excesivo. Precaución."
+    ]
+  },
+  "36": {
+    "nombre": "明夷 (Míng Yí) – El Oscurecimiento de la Luz",
+    "dictamen": "Luz herida. El noble se mantiene firme en la adversidad.",
+    "lineas": [
+      "Ocultar la luz. Sin culpa.",
+      "Herido en la pierna. Perseverar.",
+      "Luz oscura. Cautela.",
+      "Buscar guía interior. Fortuna.",
+      "Luz brilla internamente. Éxito.",
+      "Luz totalmente apagada. Caída."
+    ]
+  },
+  "37": {
+    "nombre": "家人 (Jiā Rén) – La Familia",
+    "dictamen": "Éxito en la familia. El noble cultiva la rectitud en el hogar.",
+    "lineas": [
+      "Disciplina firme. Sin culpa.",
+      "Buena guía materna. Fortuna.",
+      "Padre justo. Armonía.",
+      "Hija obediente. Éxito.",
+      "Sabiduría doméstica. Paz.",
+      "Autoridad rígida. Riesgo."
+    ]
+  },
+  "38": {
+    "nombre": "睽 (Kuí) – La Oposición",
+    "dictamen": "En la oposición, el éxito llega si hay una meta común. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Miradas distintas. No actuar.",
+      "Pequeñas diferencias. Conciliación.",
+      "Desacuerdo útil. Diálogo.",
+      "Oposición armónica. Fortuna.",
+      "Separación temporal. Comprensión.",
+      "Oposición total. Precaución."
+    ]
+  },
+  "39": {
+    "nombre": "蹇 (Jiǎn) – El Obstáculo",
+    "dictamen": "El noble gira su mirada hacia dentro y cultiva su virtud. Obstáculos superables.",
+    "lineas": [
+      "Ayuda cercana. Fortuna.",
+      "Obstáculo que guía. Reflexión.",
+      "Obstáculo interno. Aislamiento.",
+      "Obstáculo enfrentado. Valentía.",
+      "Obstáculo superado. Alegría.",
+      "Obstáculo no comprendido. Peligro."
+    ]
+  },
+  "40": {
+    "nombre": "解 (Xiè) – La Liberación",
+    "dictamen": "Éxito. Después del peligro llega la liberación. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Liberación temprana. Fortuna.",
+      "Liberación con ayuda. Amistad.",
+      "Liberación parcial. Cuidado.",
+      "Liberación del corazón. Paz.",
+      "Liberación completa. Triunfo.",
+      "Liberación irresponsable. Riesgo."
+    ]
+  },
+  "41": {
+    "nombre": "損 (Sǔn) – La Disminución",
+    "dictamen": "Disminuir lo innecesario trae éxito. Es propicio cruzar grandes aguas. Perseverancia del noble trae ventura.",
+    "lineas": [
+      "Disminución voluntaria. Fortuna.",
+      "Disminución sin arrepentimiento.",
+      "Disminuir lo superfluo. Éxito.",
+      "Disminución mutua. Alegría.",
+      "Disminuir al ego. Gran fortuna.",
+      "Disminuir sin medida. Peligro."
+    ]
+  },
+  "42": {
+    "nombre": "益 (Yì) – El Aumento",
+    "dictamen": "Aumentar lo justo. Éxito. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Aumento deliberado. Fortuna.",
+      "Aumento desde el interior.",
+      "Aumento mediante esfuerzo.",
+      "Aumento mutuo. Prosperidad.",
+      "Aumento del bien. Éxito.",
+      "Aumento inadecuado. Riesgo."
+    ]
+  },
+  "43": {
+    "nombre": "夬 (Guài) – La Resolución",
+    "dictamen": "Declarar la verdad ante el tribunal. Perseverancia trae peligro, pero éxito si se actúa con firmeza.",
+    "lineas": [
+      "Resolución ambigua. Precaución.",
+      "Resolución firme. Avance.",
+      "Resolución silenciosa. Fortaleza.",
+      "Resolución sin miedo. Fortuna.",
+      "Resolución sabia. Buena guía.",
+      "Resolución imprudente. Desventura."
+    ]
+  },
+  "44": {
+    "nombre": "姤 (Gòu) – El Encuentro",
+    "dictamen": "El encuentro con lo inesperado. La mujer fuerte no debe casarse.",
+    "lineas": [
+      "Encuentro superficial. Cuidado.",
+      "Encuentro peligroso. Alejarse.",
+      "Encuentro deseado. Aceptar.",
+      "Encuentro con lo justo. Fortuna.",
+      "Encuentro desmesurado. Precaución.",
+      "Encuentro destructivo. Pérdida."
+    ]
+  },
+  "45": {
+    "nombre": "萃 (Cuì) – La Reunión",
+    "dictamen": "Reunión sincera. Gran éxito. El rey se acerca al templo.",
+    "lineas": [
+      "Reunión espontánea. Fortuna.",
+      "Reunión ordenada. Sin culpa.",
+      "Reunión incompleta. Reconsiderar.",
+      "Reunión festiva. Alegría.",
+      "Reunión con propósito. Triunfo.",
+      "Reunión forzada. Desdicha."
+    ]
+  },
+  "46": {
+    "nombre": "升 (Shēng) – El Ascenso",
+    "dictamen": "Ascender con humildad. Gran éxito.",
+    "lineas": [
+      "Ascenso modesto. Fortuna.",
+      "Ascenso gradual. Estabilidad.",
+      "Ascenso visible. Buena señal.",
+      "Ascenso guiado. Gran avance.",
+      "Ascenso con ayuda. Alegría.",
+      "Ascenso solitario. Precaución."
+    ]
+  },
+  "47": {
+    "nombre": "困 (Kùn) – La Opresión (El Agotamiento)",
+    "dictamen": "El noble mantiene su fuerza interior en tiempos de opresión.",
+    "lineas": [
+      "Opresión interior. Perseverar.",
+      "Opresión en la bebida. Moderación.",
+      "Opresión compartida. Solidaridad.",
+      "Opresión del alma. Meditar.",
+      "Opresión externa. Retirarse.",
+      "Opresión persistente. Superar."
+    ]
+  },
+  "48": {
+    "nombre": "井 (Jǐng) – El Pozo",
+    "dictamen": "El pozo permanece siempre útil. No se puede mover, pero sirve a todos.",
+    "lineas": [
+      "Pozo seco. Desdicha.",
+      "Pozo sin cubierta. Descuido.",
+      "Pozo limpio. Aprovechable.",
+      "Pozo profundo. Ventaja.",
+      "Pozo compartido. Alegría.",
+      "Pozo sellado. Éxito duradero."
+    ]
+  },
+  "49": {
+    "nombre": "革 (Gé) – La Revolución (La Mudanza)",
+    "dictamen": "En tiempos de cambio, éxito mediante decisiones firmes. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Cambio necesario. Fortuna.",
+      "Cambio dudoso. Cautela.",
+      "Cambio legítimo. Éxito.",
+      "Cambio profundo. Renovación.",
+      "Cambio justo. Avance.",
+      "Cambio violento. Desventura."
+    ]
+  },
+  "50": {
+    "nombre": "鼎 (Dǐng) – El Caldero",
+    "dictamen": "El caldero simboliza la cultura y el alimento espiritual. Éxito a través de la nobleza del contenido.",
+    "lineas": [
+      "Caldero vacío. Reflexión.",
+      "Caldero agrietado. Revisión.",
+      "Caldero fortalecido. Fortuna.",
+      "Caldero con contenido noble.",
+      "Caldero rebosante. Éxito.",
+      "Caldero divino. Gran fortuna."
+    ]
+  },
+  "51": {
+    "nombre": "震 (Zhèn) – La Conmoción (El Trueno)",
+    "dictamen": "Trueno que sacude. El noble se estremece pero no pierde su centro.",
+    "lineas": [
+      "Trueno temprano. Advertencia.",
+      "Trueno con risa. Liberación.",
+      "Trueno persistente. Fortaleza.",
+      "Trueno protector. Éxito.",
+      "Trueno claro. Ventaja.",
+      "Trueno incesante. Agitación."
+    ]
+  },
+  "52": {
+    "nombre": "艮 (Gèn) – La Quietud (La Montaña)",
+    "dictamen": "La quietud de la espalda. El noble no desea nada más que estar en paz consigo mismo.",
+    "lineas": [
+      "Quietud en los pies. Precaución.",
+      "Quietud en la espalda. Equilibrio.",
+      "Quietud con intención. Alineación.",
+      "Quietud sin deseo. Pureza.",
+      "Quietud reflexiva. Claridad.",
+      "Quietud absoluta. Trascendencia."
+    ]
+  },
+  "53": {
+    "nombre": "漸 (Jiàn) – El Desarrollo (El Progreso gradual)",
+    "dictamen": "Como el vuelo de los gansos. Progreso constante trae fortuna.",
+    "lineas": [
+      "Paso a paso. Comienzo.",
+      "Ganso alcanza la roca. Fortaleza.",
+      "Ganso alcanza la llanura. Apertura.",
+      "Ganso alcanza el árbol. Éxito.",
+      "Ganso alcanza la colina. Unión.",
+      "Ganso alcanza el cielo. Cumplimiento."
+    ]
+  },
+  "54": {
+    "nombre": "歸妹 (Guī Mèi) – La Doncella que se Casa",
+    "dictamen": "Desposorio inadecuado. No es propicio emprender nada.",
+    "lineas": [
+      "Esposa secundaria. Dolor.",
+      "Aceptación de rol. Humildad.",
+      "Inseguridad en el compromiso.",
+      "Asumir posición con dignidad.",
+      "Transformar el destino. Fortaleza.",
+      "Matrimonio impuesto. Desventura."
+    ]
+  },
+  "55": {
+    "nombre": "豐 (Fēng) – La Abundancia",
+    "dictamen": "El sol en el cenit. El noble brilla en su grandeza. Éxito con moderación.",
+    "lineas": [
+      "Abundancia simple. Ventaja.",
+      "Abundancia parcial. Esperanza.",
+      "Abundancia oscurecida. Cuidado.",
+      "Abundancia compartida. Fortuna.",
+      "Abundancia que inspira. Éxito.",
+      "Abundancia decadente. Riesgo."
+    ]
+  },
+  "56": {
+    "nombre": "旅 (Lǚ) – El Viajero",
+    "dictamen": "El viajero es prudente y reservado. Fortuna si se actúa con respeto.",
+    "lineas": [
+      "Viaje breve. Protección.",
+      "Viaje inquieto. Dificultades.",
+      "Viaje sereno. Paz.",
+      "Viaje peligroso. Atención.",
+      "Viaje con propósito. Éxito.",
+      "Viaje interminable. Soledad."
+    ]
+  },
+  "57": {
+    "nombre": "巽 (Xùn) – La Sujeción (El Viento)",
+    "dictamen": "La suavidad penetra. El noble difunde sus órdenes y realiza sus actos.",
+    "lineas": [
+      "Sujeción discreta. Fortuna.",
+      "Sujeción dual. Precaución.",
+      "Sujeción eficaz. Avance.",
+      "Sujeción interna. Claridad.",
+      "Sujeción sabia. Influencia.",
+      "Sujeción rígida. Riesgo."
+    ]
+  },
+  "58": {
+    "nombre": "兌 (Duì) – La Alegría (El Lago)",
+    "dictamen": "Alegría comunicativa. El noble persiste en la verdad.",
+    "lineas": [
+      "Alegría inocente. Fortuna.",
+      "Alegría vacía. Advertencia.",
+      "Alegría sincera. Unión.",
+      "Alegría compartida. Plenitud.",
+      "Alegría activa. Creación.",
+      "Alegría fingida. Pérdida."
+    ]
+  },
+  "59": {
+    "nombre": "渙 (Huàn) – La Disolución",
+    "dictamen": "Disolución de las rigideces. Es propicio cruzar grandes aguas.",
+    "lineas": [
+      "Disolución inicial. Cuidado.",
+      "Disolución con ayuda. Unión.",
+      "Disolución del ego. Fortuna.",
+      "Disolución del conflicto. Paz.",
+      "Disolución voluntaria. Éxito.",
+      "Disolución total. Transformación."
+    ]
+  },
+  "60": {
+    "nombre": "節 (Jié) – La Limitación",
+    "dictamen": "Limitación fructífera. Éxito. Perseverancia trae ventura.",
+    "lineas": [
+      "Límite justo. Armonía.",
+      "Límite severo. Advertencia.",
+      "Límite firme. Seguridad.",
+      "Límite benévolo. Confianza.",
+      "Límite claro. Equilibrio.",
+      "Límite abolido. Peligro."
+    ]
+  },
+  "61": {
+    "nombre": "中孚 (Zhōng Fú) – La Verdad Interior",
+    "dictamen": "Verdad que reside en el corazón. Éxito en las relaciones y en las ofrendas.",
+    "lineas": [
+      "Verdad sutil. Pureza.",
+      "Verdad muda. Presencia.",
+      "Verdad manifestada. Unión.",
+      "Verdad perturbada. Duda.",
+      "Verdad serena. Guía.",
+      "Verdad divina. Trascendencia."
+    ]
+  },
+  "62": {
+    "nombre": "小過 (Xiǎo Guò) – La Preponderancia de lo Pequeño",
+    "dictamen": "El vuelo del pájaro. Es propicio actuar con humildad y prudencia.",
+    "lineas": [
+      "Pequeño exceso. Precaución.",
+      "Pequeño error. Reflexión.",
+      "Pequeña ventaja. Alegría.",
+      "Pequeña duda. Honestidad.",
+      "Pequeña firmeza. Éxito.",
+      "Pequeña arrogancia. Caída."
+    ]
+  },
+  "63": {
+    "nombre": "既濟 (Jì Jì) – Después de la Consumación",
+    "dictamen": "Éxito en lo ya completado. Pero hay que mantener la vigilancia.",
+    "lineas": [
+      "Final feliz. Comienzo nuevo.",
+      "Éxito fugaz. Precaución.",
+      "Consumación parcial. Revisar.",
+      "Estabilidad tras la obra. Paz.",
+      "Cumplimiento justo. Triunfo.",
+      "Éxito agotado. Declive."
+    ]
+  },
+  "64": {
+    "nombre": "未濟 (Wèi Jì) – Antes de la Consumación",
+    "dictamen": "Antes de la consumación. El noble es prudente y persevera. Fortuna final.",
+    "lineas": [
+      "Comienzo incierto. Atención.",
+      "Avance parcial. Esperanza.",
+      "Paso en falso. Tropiezo.",
+      "Voluntad firme. Recuperación.",
+      "Casi completado. Precaución.",
+      "Consumación futura. Éxito."
+    ]
+  }
+}

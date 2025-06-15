@@ -1,15 +1,17 @@
 export function cargarInterpretacion(hexagrama, callback) {
-  const bin = hexagrama.map(v => (v % 2 === 1 ? '1' : '0')).reverse().join('');
-  const numHexagrama = parseInt(bin, 2) + 1;
-
-  fetch('hexagramas_completo.json')
+  fetch("data/hexagramas_completo_FINAL_64.json")
     .then(res => res.json())
     .then(data => {
-      const info = data[numHexagrama];
-      if (info) {
-        callback(numHexagrama, info);
-      } else {
-        callback(numHexagrama, { nombre: "Desconocido", dictamen: "No encontrado.", lineas: [] });
-      }
+      const num = calcularNumeroHexagrama(hexagrama);
+      const info = data[num];
+      callback(num, info);
     });
+}
+
+// Convierte el hexagrama (6 valores) a un número del 1 al 64
+function calcularNumeroHexagrama(hexagrama) {
+  // Convierte cada línea a 1 (yang) o 0 (yin)
+  const binario = hexagrama.map(valor => (valor === 6 || valor === 8 ? 0 : 1));
+  const num = parseInt(binario.reverse().join(""), 2) + 1;
+  return String(num);
 }
