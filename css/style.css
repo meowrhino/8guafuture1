@@ -17,6 +17,11 @@ body, html {
   font-family: 'Noto Serif JP', serif;
 }
 
+body, html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 main {
   width: 100%;
   max-width: 600px;
@@ -26,8 +31,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100%;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 button, input {
@@ -76,4 +83,50 @@ input[type="text"] {
 
 .linea {
   animation: fadeInGrow 0.6s ease forwards;
+}
+
+.moneda-cu {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  perspective: 600px;
+  margin: 10px;
+}
+.moneda-cu > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-color), #333);
+  color: var(--bg-color);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+}
+.cara {
+  transform: rotateY(0deg);
+}
+.cruz {
+  transform: rotateY(180deg);
+}
+.moneda-cu.animar {
+  animation: giroMoneda 1.5s forwards;
+}
+
+@keyframes giroMoneda {
+  0%   { transform: rotateY(0); }
+  100% { transform: rotateY(1080deg); }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
