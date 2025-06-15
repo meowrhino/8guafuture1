@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Ching – Consulta interactiva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section id="intro">
+            <h1>I Ching</h1>
+            <p>Haz una consulta y descubre tu hexagrama.</p>
+            <button id="start-btn">Empezar consulta</button>
+        </section>
+
+        <section id="pregunta" style="display:none;">
+            <h2>Formula tu pregunta:</h2>
+            <input type="text" id="input-pregunta" placeholder="Escribe aquí tu pregunta">
+            <button id="submit-pregunta">Continuar</button>
+        </section>
+
+        <section id="tirada" style="display:none;">
+            <h2>Tirada de monedas</h2>
+            <div id="monedas">
+                <!-- Aquí irán las monedas -->
+            </div>
+            <button id="tirar-monedas">Lanzar monedas</button>
+            <div id="lineas">
+                <!-- Aquí se visualizarán las líneas del hexagrama -->
+            </div>
+        </section>
+
+        <section id="resultado" style="display:none;">
+            <h2>Tu hexagrama</h2>
+            <div id="hexagrama-final">
+                <!-- Hexagrama generado -->
+            </div>
+            <button id="guardar-consulta">Guardar consulta</button>
+        </section>
+    </main>
+
+    <script src="js/iching.js"></script>
+</body>
+</html>
