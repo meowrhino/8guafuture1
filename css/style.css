@@ -1,21 +1,20 @@
 :root {
-  --bg-color: #0b0c1b; /* azul oscuro, profundo */
-  --text-color: #e8e1d5; /* beige suave, pergamino */
-  --accent-color: #d4af37; /* dorado suave, ceremonial */
-  --interactive-color: #6a5acd; /* violeta suave, espiritual */
+  --bg-color: #0b0c1b;
+  --text-color: #e8e1d5;
+  --accent-color: #d4af37;
+  --interactive-color: #6a5acd;
 }
 
-body,
-html {
+body, html {
   height: 100vh;
   margin: 0;
   padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg-color);
-  font-family: "Noto Serif JP", serif;
-  color: var(--text-color);
+  font-family: 'Noto Serif JP', serif;
 }
 
 main {
@@ -31,60 +30,43 @@ section {
   height: 100%;
 }
 
-button {
+button, input {
+  background: none;
+  border: 1px solid var(--accent-color);
+  color: var(--text-color);
   padding: 10px 20px;
-  border: none;
-  background-color: var(--button-color);
-  cursor: pointer;
   font-size: 1rem;
   margin-top: 1rem;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: background 0.4s, color 0.4s;
 }
 
 button:hover {
-  background-color: var(--primary-color);
-  color: white;
+  background: var(--accent-color);
+  color: var(--bg-color);
 }
 
 input[type="text"] {
-  padding: 10px;
   width: 80%;
-  font-size: 1rem;
-}
-
-#monedas {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  text-align: center;
+  border-radius: 0;
 }
 
 .moneda {
-  width: 50px;
-  height: 50px;
+  font-size: 2rem;
   margin: 0 10px;
-  border-radius: 50%;
-  background-color: var(--button-color);
-  line-height: 50px;
-  font-size: 1.5rem;
 }
 
 .linea {
   height: 10px;
-  width: 100px;
-  margin: 5px auto;
-  background-color: var(--primary-color);
+  width: 150px;
+  margin: 5px 0;
+  background-color: var(--accent-color);
   opacity: 0;
-  transition: opacity 0.5s ease;
 }
 
 .linea.yin {
-  background: linear-gradient(
-    90deg,
-    var(--primary-color) 45%,
-    transparent 45%,
-    transparent 55%,
-    var(--primary-color) 55%
-  );
+  background: linear-gradient(90deg, var(--accent-color) 40%, transparent 40%, transparent 60%, var(--accent-color) 60%);
 }
 
 @keyframes fadeInGrow {
@@ -94,13 +76,4 @@ input[type="text"] {
 
 .linea {
   animation: fadeInGrow 0.6s ease forwards;
-}
-
-@keyframes glow {
-  from { box-shadow: 0 0 0px var(--accent-color); }
-  to { box-shadow: 0 0 10px var(--accent-color); }
-}
-
-.linea {
-  animation: fadeInGrow 0.6s ease forwards, glow 1s alternate infinite;
 }

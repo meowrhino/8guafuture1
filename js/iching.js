@@ -7,53 +7,68 @@ const tiradaSection = document.getElementById("tirada");
 const resultadoSection = document.getElementById("resultado");
 const tirarMonedasBtn = document.getElementById("tirar-monedas");
 const lineasContainer = document.getElementById("lineas");
-
 let hexagrama = [];
 
-// Mostrar formulario pregunta
-startBtn.addEventListener("click", () => {
+// Evento inicial
+startBtn.onclick = () => {
   introSection.style.display = "none";
-  preguntaSection.style.display = "block";
-});
+  preguntaSection.style.display = "flex";
+};
 
-// Guardar pregunta y pasar a la tirada
-submitPregunta.addEventListener("click", () => {
+// Guardar y mostrar pregunta
+submitPregunta.onclick = () => {
   const textoPregunta = inputPregunta.value.trim();
-  if (textoPregunta !== "") {
+  if (textoPregunta) {
     preguntaSection.style.display = "none";
     tiradaSection.style.display = "flex";
     mostrarPregunta(textoPregunta);
-  } else {
-    alert("Por favor, escribe tu pregunta.");
-  }
-});
+    crearMonedas();
+  } else alert("Escribe una pregunta.");
+};
 
 function mostrarPregunta(texto) {
-  const preguntaDisplay = document.createElement("p");
+  const preguntaDisplay = document.createElement('h3');
   preguntaDisplay.textContent = `"${texto}"`;
-  preguntaDisplay.style.fontStyle = "italic";
-  preguntaDisplay.style.marginBottom = "2rem";
-  document.querySelector("#tirada").prepend(preguntaDisplay);
+  preguntaDisplay.style.fontStyle = 'italic';
+  preguntaDisplay.style.marginBottom = '2rem';
+  document.querySelector('#tirada').prepend(preguntaDisplay);
 }
 
-// Lanzar monedas y mostrar línea
-tirarMonedasBtn.addEventListener("click", () => {
-  if (hexagrama.length < 6) {
-    let valor = lanzarMonedas();
-    hexagrama.push(valor);
-    mostrarLinea(valor);
-
-    if (hexagrama.length === 6) {
-      setTimeout(() => {
-        tiradaSection.style.display = "none";
-        resultadoSection.style.display = "block";
-        mostrarHexagramaFinal();
-      }, 1000);
-    }
+// Crear monedas visualmente (emoji)
+function crearMonedas() {
+  const monedasDiv = document.getElementById("monedas");
+  monedasDiv.innerHTML = '';
+  for (let i = 0; i < 3; i++) {
+    let div = document.createElement('div');
+    div.classList.add('moneda');
+    div.textContent = '🪙';
+    monedasDiv.appendChild(div);
   }
-});
+}
 
-// Función lanzar monedas
+// Tirar monedas con animación Anime.js
+tirarMonedasBtn.onclick = () => {
+  anime({
+    targets: '.moneda',
+    rotateY: '+=1080deg',
+    duration: 1500,
+    easing: 'easeInOutQuart',
+    complete: () => {
+      const valor = lanzarMonedas();
+      hexagrama.push(valor);
+      mostrarLinea(valor);
+      if (hexagrama.length === 6) {
+        setTimeout(() => {
+          tiradaSection.style.display = "none";
+          resultadoSection.style.display = "flex";
+          mostrarHexagramaFinal();
+        }, 800);
+      }
+    }
+  });
+};
+
+// Lanzar lógica interna monedas
 function lanzarMonedas() {
   let valor = 0;
   for (let i = 0; i < 3; i++) {
@@ -62,38 +77,22 @@ function lanzarMonedas() {
   return valor;
 }
 
-// Mostrar visualmente la línea
+// Mostrar línea hexagrama visualmente
 function mostrarLinea(valor) {
   const divLinea = document.createElement("div");
   divLinea.classList.add("linea");
-  if (valor === 6 || valor === 8) {
-    divLinea.classList.add("yin");
-  }
+  if (valor === 6 || valor === 8) divLinea.classList.add("yin");
   lineasContainer.prepend(divLinea);
-  setTimeout(() => {
-    divLinea.style.opacity = 1;
-  }, 100);
 }
 
-// Mostrar hexagrama completo al final
+// Hexagrama final
 function mostrarHexagramaFinal() {
   const hexagramaFinal = document.getElementById("hexagrama-final");
-  hexagrama.forEach((valor) => {
+  hexagramaFinal.innerHTML = '';
+  hexagrama.forEach(valor => {
     const divLinea = document.createElement("div");
     divLinea.classList.add("linea");
-    if (valor === 6 || valor === 8) {
-      divLinea.classList.add("yin");
-    }
+    if (valor === 6 || valor === 8) divLinea.classList.add("yin");
     hexagramaFinal.prepend(divLinea);
-    setTimeout(() => {
-      divLinea.style.opacity = 1;
-    }, 100);
   });
 }
-
-function identificarHexagrama(hexagrama) {
-  let valorBinario = hexagrama.map(v => (v === 7 || v === 9) ? 1 : 0).join('');
-  const numeroHexagrama = parseInt(valorBinario, 2); 
-  return numeroHexagrama;
-}
-
